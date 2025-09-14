@@ -1,0 +1,11 @@
+# 1. clone (agar local copy nahi hai)
+git clone https://github.com/rohaannaeem/portfolio.git
+cd portfolio
+
+# 2. portfolio.html ko index.html banayein (agar file ka naam portfolio.html hai)
+git mv portfolio.html index.html
+
+# 3. stage, commit, push
+git add -A
+git commit -m "Rename portfolio.html to index.html for GitHub Pages"
+git push origin main
